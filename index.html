@@ -4,10 +4,18 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container" style="max-width: 500px">
         <h1>Rerjer</h1>
         <p class='lead'>Transform any page into text that is really difficult to understand, just like Jenny Maroney's movie title, "The Rural Juror"</p>
-        <a class='btn btn-lg btn-info' href="javascript:(function() {var queue = [];queue.push(document.body);while(queue.length !== 0) {var curr = queue.pop();var child = curr.firstElementChild;if (!child) {curr.textContent = curr.textContent.replace(/([aiouyAIOUY]+)|e(?!r|\w)/g, 'er');}while(child) {queue.push(child);child = child.nextElementSibling;}}})();void(0);">Rerjer</a>
+        <ol>
+          <li>just drag the following button to your bookmarks bar</li>
+          <li>Navigate to any page</li>
+          <li>Click 'Rerjer' bookmark</li>
+          <li>Perter!</li>
+        </ol>
+        <div class="text-center">
+          <a class='btn btn-lg btn-info' href="javascript:(function() {var queue = [];queue.push(document.body);while(queue.length !== 0) {var curr = queue.pop();var child = curr.firstElementChild;if (!child) {curr.textContent = curr.textContent.replace(/([aiouyAIOUY]+)|e(?!r|\w)/g, 'er');}while(child) {queue.push(child);child = child.nextElementSibling;}}})();void(0);">Rerjer</a>
+        </div>
     </div>
   </body>
 </html>
